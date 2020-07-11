@@ -10,9 +10,23 @@
 - [app-server](app-server): Flask를 사용한 서버 추론을 위한 앱 예제
 - [app-mobile](app-mobile): 모바일 앱에서 온디바이스 추론 및 서버 통신 추론을 위한 앱 예제
 
+## 동작 방법
+
+### A. 서버 추론
+
+1. [training](training)를 수행하여 학습된 saved_model을 얻습니다.
+2. saved_model을 [app-server](app-server)에 넣고, 서버를 실행합니다.
+3. 모바일 앱([app-mobile](app-mobile)) 혹은 브라우저를 통해 mnist 추론 요청을 합니다.
+
+### B. 온디바이스 추론
+
+1. [training](training)를 실행하여 학습된 saved_model을 얻습니다.
+2. saved_model을 tflite로 변환합니다.
+3. tflite 모델을 앱 프로젝트에 탑재합니다.
+
 ## TODO
 
-- [ ] [TF2](https://www.tensorflow.org)를 사용한 딥러닝 모델 학습 예제
+- [x] [TF2](https://www.tensorflow.org)를 사용한 딥러닝 모델 학습 예제
 - [ ] [Flask](https://flask.palletsprojects.com)를 사용한 딥러닝 모델 서빙 예제
 - [ ] [TensorFlowLiteSwift](https://www.tensorflow.org/lite/guide/ios)를 사용한 iOS 온디바이스 추론 예제
 - [ ] [Alamofire](https://github.com/Alamofire/Alamofire)를 사용한 iOS 서버 통신 추론 예제
