@@ -1,8 +1,14 @@
 # Machine Learning into Mobile with MNIST
 
-앱에서 손글씨로 숫자를 쓰면, 어떤 숫자(0~9)인지 맞춰줍니다. 
+앱에서 손글씨로 숫자를 쓰면, 어떤 숫자(0~9)인지 맞춰줍니다. [MNIST 데이터셋](http://yann.lecun.com/exdb/mnist/), [TensorFlow 2](https://www.tensorflow.org), [Flask](https://flask.palletsprojects.com), [TensorFlow Lite](https://www.tensorflow.org/lite) 등을 사용하여 모델 학습부터 응용까지 가볍게 모델 추론 앱을 만들어 볼 수 있습니다.
 
-[MNIST 데이터셋](http://yann.lecun.com/exdb/mnist/), [TensorFlow 2](https://www.tensorflow.org), [Flask](https://flask.palletsprojects.com), [TensorFlow Lite](https://www.tensorflow.org/lite) 등을 사용하여 모델 학습부터 응용까지 가볍게 모델 추론 앱을 만들어 볼 수 있습니다.
+|                    온디바이스 추론 플로우                    |
+| :----------------------------------------------------------: |
+| <img width="1029" alt="diagram-ondevice-inference" src="https://user-images.githubusercontent.com/37643248/87227935-ede85500-c3d8-11ea-849c-bfb57595d0c7.png"> |
+
+|                       서버 추론 플로우                       |
+| :----------------------------------------------------------: |
+| <img width="1043" alt="diagram-server-inference" src="https://user-images.githubusercontent.com/37643248/87227936-f04aaf00-c3d8-11ea-987c-6dfaf7caf2a8.png"> |
 
 ## 예제 소개
 
@@ -28,7 +34,7 @@
 ## TODO
 
 - [x] [TF2](https://www.tensorflow.org)를 사용한 딥러닝 모델 학습 예제 추가
-- [ ] [Flask](https://flask.palletsprojects.com)를 사용한 딥러닝 모델 서빙 예제 추가
+- [x] [Flask](https://flask.palletsprojects.com)를 사용한 딥러닝 모델 서빙 예제 추가
 - [ ] [TensorFlowLiteSwift](https://www.tensorflow.org/lite/guide/ios)를 사용한 iOS 온디바이스 추론 예제 추가
 - [ ] [Alamofire](https://github.com/Alamofire/Alamofire)를 사용한 iOS 서버 통신 추론 예제 추가
 - [ ] 안드로이드 온디바이스 추론 예제 추가
