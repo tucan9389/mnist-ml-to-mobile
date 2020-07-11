@@ -1,0 +1,3 @@
+tensorflow==2.2.0
+tfcoreml==1.1
+sympy==1.6
