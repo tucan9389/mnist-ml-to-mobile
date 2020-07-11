@@ -23,6 +23,7 @@
 1. [training](training)를 실행하여 학습된 saved_model을 얻습니다.
 2. saved_model을 tflite로 변환합니다.
 3. tflite 모델을 앱 프로젝트에 탑재합니다.
+4. 모바일 앱([app-mobile](app-mobile))을 통해 mnist 온디바이스 추론을 합니다.
 
 ## TODO
 
