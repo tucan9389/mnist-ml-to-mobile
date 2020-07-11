@@ -1,4 +1,4 @@
-# MNIST-ML-to-iOS
+# Machine Learning into Mobile with MNIST
 
 앱에서 손글씨로 숫자를 쓰면, 어떤 숫자(0~9)인지 맞춰줍니다. 
 
