@@ -14,15 +14,15 @@
 
 ```
 ~/mnist-ml-to-mobile
-	├── training		: TF2를 사용한 딥러닝 모델 학습을 위한 예제
-	├── app-server	: Flask를 사용한 서버 추론을 위한 앱 예제
-	├── app-mobile	: 모바일 앱에서 온디바이스 추론 및 서버 통신 추론을 위한 앱 예제
-	|		├── convert	: tflite 변환을 위한 예제
-	|		├── ios			: iOS 예제 프로젝트 (https://github.com/tucan9389/MNIST-TFLiteSwift)
-	|		└── android : 현재 미지원 (PR은 환영입니다🎉)
-	├── outputs			: 학습된 모델, 변환된 모델이 저장되는 위치
-	├── LICENSE
-	└── README.md
+  ├── training		: TF2를 사용한 딥러닝 모델 학습을 위한 예제
+  ├── app-server	: Flask를 사용한 서버 추론을 위한 앱 예제
+  ├── app-mobile	: 모바일 앱에서 온디바이스 추론 및 서버 통신 추론을 위한 앱 예제
+  |	├── convert	: tflite 변환을 위한 예제
+  |	├── ios		: iOS 예제 프로젝트 (https://github.com/tucan9389/MNIST-TFLiteSwift)
+  |	└── android     : 현재 미지원 (PR은 환영입니다🎉)
+  ├── outputs		: 학습된 모델, 변환된 모델이 저장되는 위치
+  ├── LICENSE
+  └── README.md
 ```
 
 ## 동작 방법
