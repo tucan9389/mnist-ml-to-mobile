@@ -1,3 +1,3 @@
-[submodule "app-mobile/ios/MNIST-TFLiteSwift"]
-	path = app-mobile/ios/MNIST-TFLiteSwift
+[submodule "app-mobile/ios"]
+	path = app-mobile/ios
 	url = https://github.com/tucan9389/MNIST-TFLiteSwift
